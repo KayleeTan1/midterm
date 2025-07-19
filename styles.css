@@ -1,0 +1,23 @@
+h1 {
+    color: rgb(255,0,0.5);
+    font-size: 24 px;
+    background-color: #000;
+}
+
+div{
+    /* Width and Height */
+    width: 100%;
+    max-width: 700vw;
+    height: 100vh;
+
+    /* Color */
+    background-color: aquamarine;
+
+    /* Fonts */
+    font-size: 16px;
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace; 
+
+    /* Border */
+    border: 4px solid pink; 
+}
