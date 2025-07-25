@@ -1,0 +1,132 @@
+
+
+    * {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+        font-family: 'Courier New', Courier, monospace;
+    }
+
+    body {
+        color: white;
+    }
+
+
+    h2 {
+        margin-bottom: 20px; 
+    }
+
+    h1 {
+        margin-bottom: 20px; 
+    }
+
+    .section {
+        margin: 40px 0; 
+    }
+
+    div.container {
+        border: 5px solid lightblue;
+        width: 80%;
+        margin: 0 auto;
+    }
+
+    .content-section {
+        margin-bottom: 16px;
+    }
+
+    .center-container {
+        display: flex;
+        justify-content: center; 
+        align-items: center;     
+        height: 100vh; 
+        color: white;
+        background-color: lightblue;         
+    }
+
+
+    img {
+        width: 300px;
+        height: 200px;
+    }
+
+    figcaption {
+        text-align: center;
+        font-style: italic;
+        margin-top: 8px;
+    }
+
+    header {
+        background-color: lightskyblue;
+    }
+
+    .hero img {
+        width: 100%;
+    }
+
+    .three-columns {
+        display: flex;
+        justify-content: space-between;
+        gap: 3%;
+    }
+
+    #tools li {
+        border: 2px solid white;
+        color: white;
+    }
+
+    .three-columns > div {
+        flex: 1;
+        border: 2px dotted lightskyblue;
+        
+    }
+
+    aside img {
+        width: 100%;
+    }
+
+    aside {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    nav {
+        background-color: lightskyblue;
+    }
+
+    ul {
+        text-align: center;
+        list-style: none; 
+    }
+
+    .centered-heading {
+        text-align: center;
+    }
+
+    li {
+        display: inline-block;
+        width: 150px;
+        border-bottom: 4px solid white; 
+        line-height: 4em;
+        font-size: 20px;
+        font-family: 'Courier New', Courier, monospace;
+        font-variant: small-caps;
+    }
+
+    blockquote {
+        padding-left: 30px;
+    }
+
+    a {
+        color: white;
+        text-decoration: none;
+        border: 1px solid white;
+        display: block;
+    }
+
+    body {
+        background-color: lightskyblue;
+    }
+
+
+
+
